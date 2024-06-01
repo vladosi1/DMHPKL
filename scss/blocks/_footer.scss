@@ -1,0 +1,27 @@
+.footer {
+	padding: 40px 0px;
+}
+.footerBox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.copyright {
+}
+.footerBox__social ul {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.footerBox__social a, img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 0px 5px 0px;
+}
+.footerBox__social li{
+	margin-right: 40px;
+}

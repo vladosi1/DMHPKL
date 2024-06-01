@@ -1,0 +1,35 @@
+
+.main__info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: uppercase;
+	position: absolute;
+	top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+	
+	
+}
+.main__info h2 {
+	font-size: 96px;
+	font-weight: 900;
+}
+.main__info h3 {
+	font-weight: 100;
+	line-height: 32px;
+}
+.main__info a {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 2px 55px;
+	border-radius: 10px;
+	margin-top: 15px;
+	transition: all 0.3s ease-in;
+
+	&:hover{
+		background-color: #fff;
+		color: #000;
+	}
+}

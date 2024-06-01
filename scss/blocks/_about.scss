@@ -1,0 +1,27 @@
+.title h1 {
+	font-size: 96px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	opacity: 0;
+	animation: about__h1 0.8s ease-out 0.9s forwards;
+}
+.about__description p {
+	font-weight: normal;
+}
+
+@keyframes about__h1 {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	 }
+	 50% {
+		opacity: 0.7; /* Промежуточная прозрачность на полпути */
+	 }
+	 100% {
+		opacity: 1;
+		transform: translateY(0);
+	 }
+ }

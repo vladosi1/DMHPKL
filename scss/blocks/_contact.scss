@@ -1,0 +1,40 @@
+.contact{
+	padding: 25px 0px;
+}
+.contact__box{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	animation: contact__box 5s ease-out 0.9s forwards;
+}
+.contact__box a{
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 2px 65px;
+	border-radius: 10px;
+	transition: all 0.3s ease-in;
+
+	&:hover{
+		background-color: #fff;
+		color: #000;
+	}
+}
+.contact__box h4{
+	margin: 0px 35px 0px 0px;
+}
+
+
+@keyframes contact__box {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	 }
+	 50% {
+		opacity: 0.7; /* Промежуточная прозрачность на полпути */
+	 }
+	 100% {
+		opacity: 1;
+		transform: translateX(0);
+	 }
+ }
